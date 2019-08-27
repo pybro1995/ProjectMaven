@@ -1,3 +1,4 @@
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
@@ -8,6 +9,8 @@ public class TC1 {
 
 	@Test
 	public void m1() {
-		new ChromeDriver(); 
+		WebDriver driver = new ChromeDriver(); 
+		driver.get("http://google.com");
+		System.out.println(driver.getTitle()); 
 	}
 }
