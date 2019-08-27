@@ -1,0 +1,4 @@
+# Created at 2019-08-27T15:20:20.713
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Alternate C Drive\Users\Pavan\TestYantra\ProjectMaven\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
